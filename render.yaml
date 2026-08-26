@@ -1,0 +1,36 @@
+services:
+  # 1. FastAPI Python Backend Service
+  - type: web
+    name: placeprep-api
+    runtime: docker
+    repo: https://github.com/DEEKSHA/placement-readiness-system # Replace with actual repository URL on push
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: DATABASE_URL
+        value: sqlite:///data/cache.db
+      - key: CORS_ORIGINS
+        value: '["https://placeprep-dashboard.onrender.com", "http://localhost:5173"]' # Replace with actual frontend domain
+      - key: GROQ_API_KEY
+        sync: false # User will set this in the Render dashboard manually
+    disk:
+      name: sqlite-storage
+      mountPath: /app/data
+      sizeGB: 1
+
+  # 2. React Frontend Static Site Service
+  - type: web
+    name: placeprep-dashboard
+    runtime: static
+    repo: https://github.com/DEEKSHA/placement-readiness-system # Replace with actual repository URL
+    plan: free
+    buildCommand: "cd frontend && npm install && node node_modules/vite/bin/vite.js build"
+    publishDir: "frontend/dist"
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://placeprep-api.onrender.com # Point to the backend web service URL
+    routes:
+      - type: rewrite
+        from: "/*"
+        to: "/index.html"

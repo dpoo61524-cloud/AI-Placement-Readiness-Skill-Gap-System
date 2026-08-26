@@ -1,0 +1,154 @@
+{
+  "student_profile": {
+    "name": "Siddharth Sharma",
+    "features": {
+      "CGPA": 8.85,
+      "backlogs": 0,
+      "internships": 1,
+      "projects": 2,
+      "certifications": 1,
+      "coding_score": 90.9,
+      "communication_score": 74.0,
+      "specialization": "Computer Science"
+    },
+    "resume_skills": [
+      "git",
+      "docker",
+      "spring boot",
+      "sql",
+      "aws",
+      "c",
+      "presentation",
+      "python",
+      "opencv",
+      "javascript",
+      "teamwork",
+      "tailwind",
+      "java",
+      "react",
+      "communication",
+      "agile"
+    ]
+  },
+  "job_profile": {
+    "required_skills": [
+      "git",
+      "docker",
+      "spring boot",
+      "sql",
+      "kubernetes",
+      "aws",
+      "python",
+      "teamwork",
+      "java",
+      "agile"
+    ]
+  },
+  "readiness_analysis": {
+    "placement_readiness_score": 100.0,
+    "shap_explanation": {
+      "base_probability": 93.83,
+      "contributions": {
+        "CGPA": {
+          "value": 8.85,
+          "contribution": 4.963500022888184
+        },
+        "backlogs": {
+          "value": 0.0,
+          "contribution": 0.0
+        },
+        "internships": {
+          "value": 1.0,
+          "contribution": 0.7464055418968201
+        },
+        "projects": {
+          "value": 2.0,
+          "contribution": 0.3288681209087372
+        },
+        "certifications": {
+          "value": 1.0,
+          "contribution": -0.1379917562007904
+        },
+        "coding_score": {
+          "value": 90.9,
+          "contribution": 3.297849178314209
+        },
+        "communication_score": {
+          "value": 74.0,
+          "contribution": 1.2926781177520752
+        },
+        "specialization": {
+          "value": "Computer Science",
+          "contribution": -0.17656542360782623
+        }
+      }
+    }
+  },
+  "skill_gap_analysis": {
+    "matched": [
+      {
+        "required_skill": "git",
+        "matched_student_skill": "git",
+        "similarity_score": 1.0,
+        "importance_weight": 5
+      },
+      {
+        "required_skill": "docker",
+        "matched_student_skill": "docker",
+        "similarity_score": 1.0,
+        "importance_weight": 4
+      },
+      {
+        "required_skill": "spring boot",
+        "matched_student_skill": "spring boot",
+        "similarity_score": 1.0,
+        "importance_weight": 1
+      },
+      {
+        "required_skill": "sql",
+        "matched_student_skill": "sql",
+        "similarity_score": 1.0,
+        "importance_weight": 3
+      },
+      {
+        "required_skill": "aws",
+        "matched_student_skill": "aws",
+        "similarity_score": 1.0,
+        "importance_weight": 5
+      },
+      {
+        "required_skill": "python",
+        "matched_student_skill": "python",
+        "similarity_score": 1.0,
+        "importance_weight": 4
+      },
+      {
+        "required_skill": "teamwork",
+        "matched_student_skill": "teamwork",
+        "similarity_score": 1.0,
+        "importance_weight": 4
+      },
+      {
+        "required_skill": "java",
+        "matched_student_skill": "java",
+        "similarity_score": 1.0,
+        "importance_weight": 2
+      },
+      {
+        "required_skill": "agile",
+        "matched_student_skill": "agile",
+        "similarity_score": 1.0,
+        "importance_weight": 3
+      }
+    ],
+    "partially_matched": [],
+    "missing": [
+      {
+        "required_skill": "kubernetes",
+        "matched_student_skill": null,
+        "similarity_score": 0.0,
+        "importance_weight": 2
+      }
+    ]
+  }
+}

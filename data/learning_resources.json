@@ -1,0 +1,560 @@
+[
+  {
+    "skill_tag": "python",
+    "resource_type": "course",
+    "title": "Python for Everybody Specialization",
+    "provider": "Coursera (University of Michigan)",
+    "difficulty": "easy",
+    "description": "Learn the basics of programming, data structures, and databases using Python.",
+    "link": "https://www.coursera.org/specializations/python"
+  },
+  {
+    "skill_tag": "python",
+    "resource_type": "youtube",
+    "title": "Python for Beginners - Full Course",
+    "provider": "freeCodeCamp",
+    "difficulty": "easy",
+    "description": "A comprehensive 6-hour tutorial covering all basic Python concepts, variables, control loops, and OOP.",
+    "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+  },
+  {
+    "skill_tag": "python",
+    "resource_type": "certification",
+    "title": "PCEP \u00e2\u20ac\u201c Certified Entry-Level Python Programmer",
+    "provider": "Python Institute",
+    "difficulty": "intermediate",
+    "description": "Professional credential certifying basic knowledge of procedural programming concepts and fundamentals.",
+    "link": "https://pythoninstitute.org/pcep"
+  },
+  {
+    "skill_tag": "python",
+    "resource_type": "project_idea",
+    "title": "Automated Web Scraper & Visualizer",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Build a scraper using BeautifulSoup/Selenium to extract product pricing from e-commerce sites and plot trends using Matplotlib.",
+    "link": "https://github.com/topics/web-scraper"
+  },
+  {
+    "skill_tag": "python",
+    "resource_type": "course",
+    "title": "Advanced Python Programming Masterclass",
+    "provider": "Udemy",
+    "difficulty": "hard",
+    "description": "Deep dive into decorators, generators, metaclasses, concurrency (asyncio), and performance profiling.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "sql",
+    "resource_type": "course",
+    "title": "SQL for Data Science",
+    "provider": "Coursera (UC Davis)",
+    "difficulty": "easy",
+    "description": "Learn the fundamentals of SQL queries, filtering, aggregations, joins, and table schema design.",
+    "link": "https://www.coursera.org/learn/sql-for-data-science"
+  },
+  {
+    "skill_tag": "sql",
+    "resource_type": "youtube",
+    "title": "SQL Tutorial for Beginners",
+    "provider": "Programming with Mosh",
+    "difficulty": "easy",
+    "description": "A clean 3-hour tutorial covering standard SELECT queries, joins, aggregates, and subqueries.",
+    "link": "https://www.youtube.com/watch?v=7S_tz1z_5bA"
+  },
+  {
+    "skill_tag": "sql",
+    "resource_type": "certification",
+    "title": "Oracle Database SQL Certified Associate",
+    "provider": "Oracle",
+    "difficulty": "hard",
+    "description": "Industry certification verifying command of standard SQL and relational database schemas.",
+    "link": "https://education.oracle.com/oracle-database-sql/pkey_1z0-071"
+  },
+  {
+    "skill_tag": "sql",
+    "resource_type": "project_idea",
+    "title": "Database Schema Design & Query Optimization Project",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Design a relational database schema for a library management system, write complex inner/outer joins, and optimize with indexes.",
+    "link": "https://github.com/topics/sql-database"
+  },
+  {
+    "skill_tag": "react",
+    "resource_type": "course",
+    "title": "React - The Complete Guide (Hooks, React Router, Redux)",
+    "provider": "Udemy",
+    "difficulty": "intermediate",
+    "description": "Learn React from scratch including state management, functional components, hooks, routing, and context APIs.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "react",
+    "resource_type": "youtube",
+    "title": "React Course for Beginners 2026",
+    "provider": "CodeWithHarry",
+    "difficulty": "easy",
+    "description": "Practical React introduction covering props, state, hooks, and building a responsive web portal.",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "skill_tag": "react",
+    "resource_type": "project_idea",
+    "title": "Personal Budget Tracker Dashboard",
+    "provider": "Self-Guided Project",
+    "difficulty": "easy",
+    "description": "Build a React client-side application for transaction tracking, using local storage and visualizing categories with charts.",
+    "link": "https://github.com/topics/react-dashboard"
+  },
+  {
+    "skill_tag": "react",
+    "resource_type": "project_idea",
+    "title": "Real-time Collaboration Workspace",
+    "provider": "Self-Guided Project",
+    "difficulty": "hard",
+    "description": "Create a multiplayer whiteboarding and chat app using React, Tailwind, Socket.io, and Node backend.",
+    "link": "https://github.com/topics/socket-io"
+  },
+  {
+    "skill_tag": "javascript",
+    "resource_type": "course",
+    "title": "The Complete JavaScript Course: From Zero to Expert",
+    "provider": "Udemy (Jonas Schmedtmann)",
+    "difficulty": "intermediate",
+    "description": "Modern JS covering ES6+, OOP, asynchronous coding (promises, async/await), and event cycles.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "javascript",
+    "resource_type": "youtube",
+    "title": "JavaScript Tutorial for Beginners",
+    "provider": "SuperSimpleDev",
+    "difficulty": "easy",
+    "description": "A beginner-focused visual tutorial covering JS variables, loops, DOM selection, and event listeners.",
+    "link": "https://www.youtube.com/watch?v=EerdGm-ehVw"
+  },
+  {
+    "skill_tag": "javascript",
+    "resource_type": "project_idea",
+    "title": "Interactive Weather API Portal",
+    "provider": "Self-Guided Project",
+    "difficulty": "easy",
+    "description": "Build a dynamic weather cards UI that fetches real-time parameters from OpenWeatherMap API and updates elements.",
+    "link": "https://github.com/topics/weather-app"
+  },
+  {
+    "skill_tag": "java",
+    "resource_type": "course",
+    "title": "Java Programming Masterclass for Software Developers",
+    "provider": "Udemy",
+    "difficulty": "intermediate",
+    "description": "Comprehensive Java training covering JVM architecture, OOP, Java collections, and multithreading.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "java",
+    "resource_type": "certification",
+    "title": "Oracle Certified Professional: Java SE Developer",
+    "provider": "Oracle",
+    "difficulty": "hard",
+    "description": "Credential verifying deep knowledge of Java syntax, APIs, modularity, concurrency, and OOP.",
+    "link": "https://education.oracle.com/oracle-certified-professional-java-se-17-developer/pkey_1z0-829"
+  },
+  {
+    "skill_tag": "java",
+    "resource_type": "project_idea",
+    "title": "Multi-threaded Web Server from Scratch",
+    "provider": "Self-Guided Project",
+    "difficulty": "hard",
+    "description": "Write a Java socket-based server that handles incoming HTTP requests concurrently using thread pools.",
+    "link": "https://github.com/topics/java-webserver"
+  },
+  {
+    "skill_tag": "docker",
+    "resource_type": "course",
+    "title": "Docker Technologies for DevOps and Developers",
+    "provider": "Udemy",
+    "difficulty": "intermediate",
+    "description": "Learn containerization, Dockerfiles, volume binding, network configurations, and Docker Compose.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "docker",
+    "resource_type": "youtube",
+    "title": "Docker Tutorial for Beginners",
+    "provider": "TechWorld with Nana",
+    "difficulty": "easy",
+    "description": "An excellent visual overview of containers, images, registry, volumes, and networks.",
+    "link": "https://www.youtube.com/watch?v=3c-iQqg644U"
+  },
+  {
+    "skill_tag": "docker",
+    "resource_type": "project_idea",
+    "title": "Containerized Multi-Container Application Stack",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Configure a docker-compose network mapping a React client, Node.js backend API, and a PostgreSQL DB.",
+    "link": "https://github.com/topics/docker-compose"
+  },
+  {
+    "skill_tag": "kubernetes",
+    "resource_type": "course",
+    "title": "Certified Kubernetes Administrator (CKA) Course",
+    "provider": "KodeKloud",
+    "difficulty": "hard",
+    "description": "Hands-on preparation for CKA covering pods, deployments, services, ingress, networking, and cluster configurations.",
+    "link": "https://kodekloud.com/courses/certified-kubernetes-administrator-cka/"
+  },
+  {
+    "skill_tag": "kubernetes",
+    "resource_type": "certification",
+    "title": "Certified Kubernetes Application Developer (CKAD)",
+    "provider": "Cloud Native Computing Foundation (CNCF)",
+    "difficulty": "hard",
+    "description": "Industry certification verifying your ability to design, build, configure, and expose cloud-native applications on Kubernetes.",
+    "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/"
+  },
+  {
+    "skill_tag": "kubernetes",
+    "resource_type": "project_idea",
+    "title": "Microservices Cluster Deployment",
+    "provider": "Self-Guided Project",
+    "difficulty": "hard",
+    "description": "Set up a local Minikube cluster and deploy a multi-service web app using deployment specs, node-ports, and persistent volumes.",
+    "link": "https://github.com/topics/kubernetes-deployment"
+  },
+  {
+    "skill_tag": "aws",
+    "resource_type": "course",
+    "title": "Ultimate AWS Certified Cloud Practitioner",
+    "provider": "Udemy (Stephane Maarek)",
+    "difficulty": "easy",
+    "description": "Broad introduction to cloud concepts, global architecture, IAM, EC2, RDS, S3, and billing metrics.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "aws",
+    "resource_type": "certification",
+    "title": "AWS Certified Solutions Architect \u00e2\u20ac\u201c Associate",
+    "provider": "Amazon Web Services",
+    "difficulty": "intermediate",
+    "description": "Prestigous standard verifying system design capabilities on AWS utilizing scalable, secure, and resilient networks.",
+    "link": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+  },
+  {
+    "skill_tag": "aws",
+    "resource_type": "project_idea",
+    "title": "Serverless Data Pipeline",
+    "provider": "Self-Guided Project",
+    "difficulty": "hard",
+    "description": "Build an image-uploader pipeline using AWS API Gateway, Lambda functions for compression, S3 for storage, and DynamoDB for logs.",
+    "link": "https://github.com/topics/aws-lambda"
+  },
+  {
+    "skill_tag": "git",
+    "resource_type": "course",
+    "title": "Git Complete: The Definitive Guide",
+    "provider": "Udemy",
+    "difficulty": "easy",
+    "description": "Learn distributed version control, staging, branching, merging, conflict resolution, and rebasing.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "git",
+    "resource_type": "youtube",
+    "title": "Git and GitHub for Beginners",
+    "provider": "Amigoscode",
+    "difficulty": "easy",
+    "description": "A quick visual tutorial covering local repositories, pushing, pulling, and working collaboratively with pull requests.",
+    "link": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+  },
+  {
+    "skill_tag": "git",
+    "resource_type": "project_idea",
+    "title": "Open Source Collaboration Demo",
+    "provider": "Self-Guided Project",
+    "difficulty": "easy",
+    "description": "Fork a repo, create a feature branch, resolve merge conflicts manually, and submit clean pull requests with commit history.",
+    "link": "https://github.com/topics/git-tutorial"
+  },
+  {
+    "skill_tag": "agile",
+    "resource_type": "course",
+    "title": "Agile with Atlassian Jira",
+    "provider": "Coursera",
+    "difficulty": "easy",
+    "description": "Understand Scrum and Kanban frameworks, sprint planning, epic mapping, and issue tracking in Jira.",
+    "link": "https://www.coursera.org/learn/agile-atlassian-jira"
+  },
+  {
+    "skill_tag": "agile",
+    "resource_type": "certification",
+    "title": "Professional Scrum Master I (PSM I)",
+    "provider": "Scrum.org",
+    "difficulty": "intermediate",
+    "description": "Industry certification verifying command of the Scrum guide, Scrum values, team roles, and iterative delivery.",
+    "link": "https://www.scrum.org/professional-scrum-master-i-certification"
+  },
+  {
+    "skill_tag": "spring boot",
+    "resource_type": "course",
+    "title": "Spring Boot 3 & Spring Framework 6 Masterclass",
+    "provider": "Udemy",
+    "difficulty": "intermediate",
+    "description": "Learn backend dependency injection, MVC routing, JPA Hibernate database connection, and Spring Security configurations.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "spring boot",
+    "resource_type": "project_idea",
+    "title": "RESTful Online Store Catalog",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Write a Spring Boot microservice supporting CRUD actions on an inventory database, secured using JWT authorization.",
+    "link": "https://github.com/topics/spring-boot-rest-api"
+  },
+  {
+    "skill_tag": "nlp",
+    "resource_type": "course",
+    "title": "Natural Language Processing Specialization",
+    "provider": "Coursera (DeepLearning.AI)",
+    "difficulty": "hard",
+    "description": "Learn sentiment analysis, parsing, translation models, and transformer architectures (BERT, GPT) using PyTorch.",
+    "link": "https://www.coursera.org/specializations/natural-language-processing"
+  },
+  {
+    "skill_tag": "nlp",
+    "resource_type": "project_idea",
+    "title": "Text Summarizer & NER Parser",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Create a tool using Python and spaCy to ingest large text files, summarize their contents, and extract entities (names, locations).",
+    "link": "https://github.com/topics/named-entity-recognition"
+  },
+  {
+    "skill_tag": "pandas",
+    "resource_type": "course",
+    "title": "Data Analysis with Python and Pandas",
+    "provider": "Coursera",
+    "difficulty": "easy",
+    "description": "Learn data selection, aggregations, handling missing data, and reading CSVs/Excel using Python Pandas.",
+    "link": "https://www.coursera.org/"
+  },
+  {
+    "skill_tag": "pandas",
+    "resource_type": "project_idea",
+    "title": "COVID-19 Global Data Insights Dashboard",
+    "provider": "Self-Guided Project",
+    "difficulty": "easy",
+    "description": "Ingest public WHO datasets using Pandas, clean erroneous values, perform aggregations, and output formatted summaries.",
+    "link": "https://github.com/topics/pandas-dataframe"
+  },
+  {
+    "skill_tag": "communication",
+    "resource_type": "course",
+    "title": "Improving Communication Skills",
+    "provider": "Coursera (University of Pennsylvania)",
+    "difficulty": "easy",
+    "description": "Learn active listening, persuasive speaking, structuring messages, and managing workplace conflicts.",
+    "link": "https://www.coursera.org/learn/wharton-communication-skills"
+  },
+  {
+    "skill_tag": "communication",
+    "resource_type": "youtube",
+    "title": "How to Speak Confidently & Influence Others",
+    "provider": "Ted Talks Playlist",
+    "difficulty": "easy",
+    "description": "A collection of 10 expert presentations on body language, speech formatting, and public presenting tips.",
+    "link": "https://www.youtube.com/"
+  },
+  {
+    "skill_tag": "communication",
+    "resource_type": "certification",
+    "title": "Professional Business Communication & Executive Presence Certificate",
+    "provider": "Coursera (Wharton School)",
+    "difficulty": "intermediate",
+    "description": "Professional credential certifying mastery in executive presentations, business writing, and corporate communication.",
+    "link": "https://www.coursera.org/learn/wharton-communication-skills"
+  },
+  {
+    "skill_tag": "communication",
+    "resource_type": "project_idea",
+    "title": "Corporate Communication & Executive Presentation Portfolio",
+    "provider": "Self-Guided Professional Project",
+    "difficulty": "intermediate",
+    "description": "Develop a comprehensive corporate communication portfolio including executive project proposals, technical documentation, and slide decks.",
+    "link": "https://github.com/topics/presentation-deck"
+  },
+  {
+    "skill_tag": "teamwork",
+    "resource_type": "course",
+    "title": "Collaborative Leadership & Teamwork",
+    "provider": "edX (University of Queensland)",
+    "difficulty": "easy",
+    "description": "Understand group dynamics, high-performance team frameworks, peer feedback, and shared goal management.",
+    "link": "https://www.edx.org/"
+  },
+  {
+    "skill_tag": "presentation",
+    "resource_type": "course",
+    "title": "Designing Effective Presentation Slides",
+    "provider": "Coursera",
+    "difficulty": "easy",
+    "description": "Principles of visual design, decluttering bullet lists, telling stories with data, and creating professional slide templates.",
+    "link": "https://www.coursera.org/"
+  },
+  {
+    "skill_tag": "c++",
+    "resource_type": "course",
+    "title": "Beginning C++ Programming - From Beginner to Beyond",
+    "provider": "Udemy",
+    "difficulty": "easy",
+    "description": "Learn C++ variables, expressions, arrays, vectors, pointers, memory allocation, and object-oriented programming.",
+    "link": "https://www.udemy.com/"
+  },
+  {
+    "skill_tag": "c++",
+    "resource_type": "project_idea",
+    "title": "Custom Data Structures & Algorithms Library",
+    "provider": "Self-Guided Project",
+    "difficulty": "hard",
+    "description": "Implement custom templates for lists, BST, heap, and graph search algorithms in raw C++, managing memory manually.",
+    "link": "https://github.com/topics/cpp-dsa"
+  },
+  {
+    "skill_tag": "c++",
+    "resource_type": "youtube",
+    "title": "C++ Data Structures and Algorithms Course",
+    "provider": "freeCodeCamp",
+    "difficulty": "intermediate",
+    "description": "An 8-hour comprehensive guide explaining arrays, stacks, queues, trees, and dynamic programming.",
+    "link": "https://www.youtube.com/watch?v=8hly31xKjhc"
+  },
+  {
+    "skill_tag": "scikit-learn",
+    "resource_type": "course",
+    "title": "Machine Learning with Python",
+    "provider": "Coursera (IBM)",
+    "difficulty": "intermediate",
+    "description": "Learn regression, classification, clustering, and model validation metrics using Scikit-Learn.",
+    "link": "https://www.coursera.org/learn/machine-learning-with-python"
+  },
+  {
+    "skill_tag": "scikit-learn",
+    "resource_type": "project_idea",
+    "title": "House Price Prediction Pipeline",
+    "provider": "Self-Guided Project",
+    "difficulty": "intermediate",
+    "description": "Build a pipeline with Scikit-learn to handle missing numeric values, encode locations, and train a ridge regression model.",
+    "link": "https://github.com/topics/scikit-learn-project"
+  },
+  {
+    "skill_tag": "tensorflow",
+    "resource_type": "course",
+    "title": "TensorFlow Developer Professional Certificate",
+    "provider": "Coursera (DeepLearning.AI)",
+    "difficulty": "hard",
+    "description": "Learn to build CNNs, NLP models, and time-series predictors in TensorFlow using Keras layers.",
+    "link": "https://www.coursera.org/professional-certificates/tensorflow-in-practice"
+  },
+  {
+    "skill_tag": "tensorflow",
+    "resource_type": "certification",
+    "title": "TensorFlow Developer Certificate",
+    "provider": "Google / TensorFlow Certificate Network",
+    "difficulty": "hard",
+    "description": "Google's official certification verifying skills in constructing deep neural networks and NLP algorithms.",
+    "link": "https://www.tensorflow.org/certificate"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "course",
+    "title": "Excel Skills for Business Specialization",
+    "provider": "Coursera (Macquarie University)",
+    "difficulty": "easy",
+    "description": "Master Excel formulas, VLOOKUP/XLOOKUP, data validation, conditional formatting, and dashboard design.",
+    "link": "https://www.coursera.org/specializations/excel"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "youtube",
+    "title": "Microsoft Excel Tutorial for Beginners - Full Course",
+    "provider": "freeCodeCamp",
+    "difficulty": "easy",
+    "description": "Comprehensive tutorial covering Excel basics, functions, charts, pivot tables, and data analysis techniques.",
+    "link": "https://www.youtube.com/watch?v=Vl0H-qTclOg"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "course",
+    "title": "Advanced Excel: Data Analysis & Pivot Tables",
+    "provider": "Udemy",
+    "difficulty": "intermediate",
+    "description": "Master Power Query, Power Pivot, INDEX/MATCH, dynamic array formulas, and executive dashboard building.",
+    "link": "https://www.udemy.com/course/advanced-excel-data-analysis/"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "certification",
+    "title": "Microsoft Office Specialist: Excel Expert (MO-201)",
+    "provider": "Microsoft",
+    "difficulty": "intermediate",
+    "description": "Official Microsoft certification validating expertise in advanced formulas, custom data formats, and Power Pivot models.",
+    "link": "https://learn.microsoft.com/en-us/credentials/certifications/mos-excel-expert-2019"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "certification",
+    "title": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+    "provider": "Microsoft",
+    "difficulty": "hard",
+    "description": "Demonstrate expertise in converting raw Excel datasets into actionable Business Intelligence dashboards.",
+    "link": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/"
+  },
+  {
+    "skill_tag": "excel",
+    "resource_type": "project_idea",
+    "title": "Executive Financial & Sales Analytics Dashboard in Excel",
+    "provider": "Self-Guided Analytics Project",
+    "difficulty": "intermediate",
+    "description": "Build an automated sales reporting dashboard using Power Query, Pivot Tables, XLOOKUP, and interactive slicers.",
+    "link": "https://github.com/topics/excel-dashboard"
+  },
+  {
+    "skill_tag": "r",
+    "resource_type": "course",
+    "title": "Data Science: R Basics Specialization",
+    "provider": "Coursera (Harvard University)",
+    "difficulty": "easy",
+    "description": "Learn R programming fundamentals, data wrangling with dplyr, and data visualization using ggplot2.",
+    "link": "https://www.coursera.org/learn/r-basics"
+  },
+  {
+    "skill_tag": "r",
+    "resource_type": "youtube",
+    "title": "R Programming Full Course for Beginners",
+    "provider": "freeCodeCamp",
+    "difficulty": "easy",
+    "description": "Learn syntax, vectors, matrices, data frames, statistical modeling, and plotting in R.",
+    "link": "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+  },
+  {
+    "skill_tag": "r",
+    "resource_type": "certification",
+    "title": "DataCamp Certified R Data Analyst",
+    "provider": "DataCamp",
+    "difficulty": "intermediate",
+    "description": "Industry certification verifying command of R data manipulation, hypothesis testing, and exploratory analysis.",
+    "link": "https://www.datacamp.com/certification/data-analyst"
+  },
+  {
+    "skill_tag": "r",
+    "resource_type": "project_idea",
+    "title": "Statistical Exploratory Data Analysis & Predictive Model in R",
+    "provider": "Self-Guided Analytics Project",
+    "difficulty": "intermediate",
+    "description": "Perform regression analysis and data visualization on healthcare datasets using R, ggplot2, and R Markdown.",
+    "link": "https://github.com/topics/r-project"
+  }
+]
