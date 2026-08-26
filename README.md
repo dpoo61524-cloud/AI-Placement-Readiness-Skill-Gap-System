@@ -4,15 +4,30 @@
 
 ---
 
-## 📸 Application Screenshots & Output Previews
+## 📸 Application UI & Output Screenshots
 
-### 🎯 4-Week Personalized Technical Learning Plan
-![Personalized Learning Plan](docs/images/recommendations_plan.png)
+### 1️⃣ Resume PDF & Target Job Description Upload Page
+![1. Resume PDF & Target Job Description Upload Page](docs/images/1_upload_page.jpg)
 
-### 🤖 Explainable AI (XAI) Model Decision & SHAP Feature Impact
-| 🧠 Explainable AI Feature Summary | 📊 Data Feature Analytics |
-| :---: | :---: |
-| ![XAI Feature Impact](docs/images/xai_shap_summary.png) | ![Data Correlation Matrix](docs/images/data_correlation.png) |
+---
+
+### 2️⃣ Analysis Dashboard — Placement Readiness Score & XAI Feature Impact
+![2. Placement Readiness Score & Explainable AI (XAI) Feature Impact](docs/images/2_dashboard_score_xai.jpg)
+
+---
+
+### 3️⃣ Analysis Dashboard — Feature Chart, Skill Alignment Radar & Match Status
+![3. Feature Chart & Skill Alignment Profile Radar Chart](docs/images/3_dashboard_charts.jpg)
+
+---
+
+### 4️⃣ Analysis Dashboard — Detailed Skill Gap Breakdown
+![4. Skill Gap Breakdown (Verified Skills vs Skill Gaps)](docs/images/4_dashboard_skill_gap.jpg)
+
+---
+
+### 5️⃣ Personalized 4-Week Technical Learning Roadmap
+![5. Personalized 4-Week Technical Learning Roadmap](docs/images/5_learning_path.jpg)
 
 ---
 
@@ -43,7 +58,7 @@
 ```text
 AI-Placement-Readiness-Skill-Gap-System/
 ├── docs/
-│   └── images/             # Screenshots and preview visual assets for README
+│   └── images/             # Full resolution application screenshots (1st to 5th UI flow)
 ├── backend/
 │   ├── db/                 # SQLite database session & ORM models
 │   ├── routers/            # FastAPI endpoint handlers (/parse-resume, /predict, /full-analysis, /recommendations)
@@ -149,24 +164,6 @@ Open a **new terminal window** and navigate to the `frontend` folder:
    npm run dev
    ```
    > The React app will start running on **`http://localhost:5173`**.
-
----
-
-## 🖼️ How to Add / Replace Application Screenshots
-
-To add or update screenshots on GitHub:
-1. Take a screenshot of your app page (e.g., Upload page or Dashboard page).
-2. Save the PNG image inside the **`docs/images/`** folder (e.g., `upload_page.png` or `dashboard_page.png`).
-3. Add the markdown link inside **`README.md`**:
-   ```markdown
-   ![Upload Page](docs/images/upload_page.png)
-   ```
-4. Push to GitHub:
-   ```bash
-   git add docs/images/ README.md
-   git commit -m "Update application screenshots"
-   git push origin main
-   ```
 
 ---
 
