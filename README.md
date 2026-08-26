@@ -4,6 +4,18 @@
 
 ---
 
+## 📸 Application Screenshots & Output Previews
+
+### 🎯 4-Week Personalized Technical Learning Plan
+![Personalized Learning Plan](docs/images/recommendations_plan.png)
+
+### 🤖 Explainable AI (XAI) Model Decision & SHAP Feature Impact
+| 🧠 Explainable AI Feature Summary | 📊 Data Feature Analytics |
+| :---: | :---: |
+| ![XAI Feature Impact](docs/images/xai_shap_summary.png) | ![Data Correlation Matrix](docs/images/data_correlation.png) |
+
+---
+
 ## 🌟 Key Features
 
 - 📄 **Intelligent Resume Parsing**: Extracts student CGPA, internships, projects, certifications, specialization branch, and technical skills from PDF and DOCX resumes.
@@ -30,6 +42,8 @@
 
 ```text
 AI-Placement-Readiness-Skill-Gap-System/
+├── docs/
+│   └── images/             # Screenshots and preview visual assets for README
 ├── backend/
 │   ├── db/                 # SQLite database session & ORM models
 │   ├── routers/            # FastAPI endpoint handlers (/parse-resume, /predict, /full-analysis, /recommendations)
@@ -135,6 +149,24 @@ Open a **new terminal window** and navigate to the `frontend` folder:
    npm run dev
    ```
    > The React app will start running on **`http://localhost:5173`**.
+
+---
+
+## 🖼️ How to Add / Replace Application Screenshots
+
+To add or update screenshots on GitHub:
+1. Take a screenshot of your app page (e.g., Upload page or Dashboard page).
+2. Save the PNG image inside the **`docs/images/`** folder (e.g., `upload_page.png` or `dashboard_page.png`).
+3. Add the markdown link inside **`README.md`**:
+   ```markdown
+   ![Upload Page](docs/images/upload_page.png)
+   ```
+4. Push to GitHub:
+   ```bash
+   git add docs/images/ README.md
+   git commit -m "Update application screenshots"
+   git push origin main
+   ```
 
 ---
 
