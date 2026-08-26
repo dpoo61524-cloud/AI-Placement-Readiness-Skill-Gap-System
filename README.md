@@ -1,10 +1,10 @@
-# 🚀 PlacePrep AI — Placement Readiness & Skill Gap Analytics System
+#  PlacePrep AI — Placement Readiness & Skill Gap Analytics System
 
 > An end-to-end AI-powered placement readiness evaluator, machine learning scoring engine, and RAG-driven 4-week personalized technical learning plan builder for students and job applicants.
 
 ---
 
-## 📸 Application UI & Output Screenshots
+##  Application UI & Output Screenshots
 
 ### 1️⃣ Resume PDF & Target Job Description Upload Page
 ![1. Resume PDF & Target Job Description Upload Page](docs/images/1_upload_page.jpg)
@@ -31,19 +31,19 @@
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- 📄 **Intelligent Resume Parsing**: Extracts student CGPA, internships, projects, certifications, specialization branch, and technical skills from PDF and DOCX resumes.
-- 🎯 **Machine Learning Placement Scoring**: Evaluates candidate placement readiness score (0–100%) using a trained Random Forest classifier.
-- 🤖 **Explainable AI (XAI) Feature Impact**: Provides clear, human-readable model decision reasoning for every candidate attribute (CGPA, internships, projects, certifications, soft skills).
-- 📊 **Dynamic Skill Gap Breakdown**: Compares candidate skills against job description requirements using exact and semantic cosine similarity matching (Categorized into *Matched*, *Partially Matched*, and *Missing*).
-- 📅 **Dual-Tier 4-Week Personalised Roadmap**: Builds a 4-week technical learning plan focused 100% on **Core Technical Skills** (*Excel, SQL, Python, R, Java, C++, React, AWS, Docker*) paired with weekly **Soft Skill Assessment Rubrics** (20% weight).
-- 🧠 **Hybrid RAG Recommendation Engine**: Combines exact skill tagging with FAISS vector similarity search (`SentenceTransformer('all-MiniLM-L6-v2')`) to retrieve top curated learning courses, YouTube tutorials, and certifications.
-- 🎨 **Modern React & Aurora Glassmorphism Dashboard**: Interactive score gauges, radar alignment charts, status bar charts, and week accordions built with Vite, React, and Recharts.
+-  **Intelligent Resume Parsing**: Extracts student CGPA, internships, projects, certifications, specialization branch, and technical skills from PDF and DOCX resumes.
+-  **Machine Learning Placement Scoring**: Evaluates candidate placement readiness score (0–100%) using a trained Random Forest classifier.
+-  **Explainable AI (XAI) Feature Impact**: Provides clear, human-readable model decision reasoning for every candidate attribute (CGPA, internships, projects, certifications, soft skills).
+-  **Dynamic Skill Gap Breakdown**: Compares candidate skills against job description requirements using exact and semantic cosine similarity matching (Categorized into *Matched*, *Partially Matched*, and *Missing*).
+-  **Dual-Tier 4-Week Personalised Roadmap**: Builds a 4-week technical learning plan focused 100% on **Core Technical Skills** (*Excel, SQL, Python, R, Java, C++, React, AWS, Docker*) paired with weekly **Soft Skill Assessment Rubrics** (20% weight).
+-  **Hybrid RAG Recommendation Engine**: Combines exact skill tagging with FAISS vector similarity search (`SentenceTransformer('all-MiniLM-L6-v2')`) to retrieve top curated learning courses, YouTube tutorials, and certifications.
+-  **Modern React & Aurora Glassmorphism Dashboard**: Interactive score gauges, radar alignment charts, status bar charts, and week accordions built with Vite, React, and Recharts.
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend**: Python 3.10+, FastAPI, Uvicorn, Pydantic, SQLite
 - **Machine Learning**: Scikit-Learn (Random Forest), Joblib, NumPy, Pandas
@@ -53,7 +53,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 AI-Placement-Readiness-Skill-Gap-System/
@@ -97,7 +97,7 @@ AI-Placement-Readiness-Skill-Gap-System/
 
 ---
 
-## ⚡ Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 
@@ -167,20 +167,9 @@ Open a **new terminal window** and navigate to the `frontend` folder:
 
 ---
 
-## 🔌 API Endpoints Summary
 
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| `GET` | `/health` | Health check endpoint returning database and backend status. |
-| `POST` | `/parse-resume` | Upload a PDF/DOCX resume file to extract profile attributes and skills. |
-| `POST` | `/predict` | Predict placement readiness score (0-100%) from candidate features. |
-| `POST` | `/skill-gap` | Analyze candidate resume skills against target job description requirements. |
-| `POST` | `/recommendations` | Generate personalized 4-week core technical learning plan & certifications. |
-| `POST` | `/full-analysis` | Execute complete end-to-end analysis (Resume parsing + ML Prediction + Skill Gap + 4-Week Roadmap) in a single request. |
 
----
-
-## 📜 License
+##  License
 
 Distributed under the **MIT License**. See `LICENSE` for more details.
 
